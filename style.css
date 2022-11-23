@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+
+}
+body{
+  background: rgb(233, 143, 7);
+  
+
+
+}
+header{
+    background: white;
+    display: flex;
+    border-radius: 30rem;
+    margin: 30px 125px;
+    padding: 0 125px;
+    box-shadow: 0px 0px 17px -2px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+}
+
+header a img{
+    height: 100px;
+}
+.header-btn{
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    color: black;
+    transition: 0.5s all;
+    
+}
+nav ul li a:hover{
+    border-bottom: 1px solid red;
+}
+nav ul li .anasayfa{
+    border-bottom: 1px solid red;
+    
+}
+.header-btn {
+    display: flex;
+    column-gap: 1rem;
+    font-size: 25px;
+}
+/* header bitti*/
+
+section{
+    padding: 3.5rem 7%;
+}
+
+.home{
+    height: 100vh;
+    background: url(img/home.jpg);
+    background-size: cover;
+    margin-top: -167px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+}
+.home .content{
+    color: white;
+    max-width: 550px;
+}
+.home .content h3{
+    font-size: 100px;
+}
+.home .content p{
+    color: rgba(255,255,255, 0.9);
+    margin-bottom: 50px;
+}
+.home .content .siparis{
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.home .content .siparis:hover{
+    background: rgba(0,0,0,.8);
+}
+/*1.section bitti*/
+.menu-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+}
+.menu-title span{
+    color: black;
+}
+.products{
+    display: flex;
+    margin-top: 25px;
+}
+.products .kutu{
+    width: 500px;
+    height: 550px;
+    background: rgba(255,255,255, 0.8);
+    margin: 0 20px;
+    border-radius: 30px;
+    text-align: center;
+
+    
+}
+.products .kutu img{
+    width: 250px;
+    height:250px;
+}
+.products .kutu p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-left: 20px;
+    font-size: small;
+}
+.products .kutu h1{
+    text-align: justify;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.products .kutu h3{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.products .kutu .btn {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background: #000;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.products .kutu .btn:hover{
+    background-color: rgba(0,0,0, .8);
+}
+.products .kutu .btn a{
+    text-decoration: none;
+    color: white;
+}
+/* section2*/
+.products1{
+    display: flex;
+    margin-top: 25px;
+}
+.products1 .kutu1{
+    width: 500px;
+    height: 625px;
+    background: rgba(255,255,255, 0.8);
+    margin: 0 20px;
+    border-radius: 30px;
+    text-align: center;   
+}
+.products1 .kutu1 img{
+    margin-top: 20px;
+    width: 300px;
+    height:300px;
+}
+.products1 .kutu1 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-left: 20px;
+    font-size: small;
+}
+.products1 .kutu1 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.products1 .kutu1 h3{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.products1 .kutu1 .h3-right{
+    margin-left:100px;
+}
+.products1 .kutu1 .btn {
+    display: flex;
+    width: 75px;
+    justify-content: center;
+    padding: 15px;
+    margin-left:168px;
+    background: black;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.products1 .kutu1 .btn:hover{
+    background-color: rgba(0,0,0, .8);
+}
+.products1 .kutu1 .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.kutu1 h4{
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 110px;
+}
+.kutu1 h1{
+    font-size: 25px;
+}
+.products1 .siyah {
+    background: url(img/dark-product.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 500px;
+    height: 625px;
+    margin: 0 20px;
+    border-radius: 30px;
+
+
+}
+.products1 .siyah h1{
+    margin: 30px 0 0 35px;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+.products1 .siyah h2{
+    margin: 300px 0 0 50px;
+    font-size: 30px;
+}
+.products1 .siyah h3{
+    margin: 10px 0 0 80px;
+    font-size: 30px;
+    display: inline-block
+}
+.products1 .siyah .btn-siyah{
+    display: flex;
+    width: 75px;
+    justify-content: center;
+    padding: 15px;
+    margin-left:150px;
+    background: rgba(255,255,255, .9);
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.products1 .siyah .btn-siyah:hover{
+    background: rgba(233, 143, 7, .8);
+}
+.products1 .siyah .btn-siyah a{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+}
+/* section-2 bitti*/
+.about-us .about{
+    display: flex;
+    margin-top: 30px;
+}
+.about-us .about img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px black;
+}
+.about-us .about .about-main{
+    margin-left: 20px;
+}
+.about-us .about .about-main h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.about-us .about .about-main p{
+    
+    font-size: 18px;
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+.about-us .about .about-main .about-btn{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background: #000;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.about-us .about .about-main .about-btn:hover{
+    background: rgba(0,0,0, .8);
+    scale: 1.3;
+}
+/*section 3 bitti --JudiciaLL--*/
+
+.yorumlar .customer-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    
+
+}
+.yorumlar .customer-box .c-box{
+    width: 500px;
+    height: 620px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    border-radius: 30px;
+    
+}
+.yorumlar .customer-box .c-box .fa-quote-left{
+    font-size: 250px;
+    margin: 20px 0;
+}
+.yorumlar .customer-box .c-box p{
+    margin: 0 30px 30px 30px;
+    
+}
+.yorumlar .customer-box .c-box img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.yorumlar .customer-box .c-box h3{
+    color: rgb(233, 143, 7);
+}
+.yorumlar .customer-box .c-box .fa-star,.fa-star-half-alt{
+    color:rgb(233, 143, 7);
+}
+/*section 4 bitti Judicial--*/
+
+.iletisim .contact-us{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.iletisim .contact-us iframe{
+    border-radius: 30px;
+}
+.iletisim .contact-us .contact-form{
+    width: 50%;
+    border-radius: 5%;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+
+    
+}
+.iletisim .contact-us .contact-form h1{
+    margin-top: 20px;
+}
+.iletisim .contact-us .contact-form .text{
+    width: 80%;
+    padding: 15px;
+    margin-top: 50px;
+}
+.about-form input::placeholder{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.about-form .submit{
+    width: 30%;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10rem;
+    cursor: pointer;
+    border: none;
+    background: #000;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.about-form .submit:hover{
+    background: white;
+    color: black;
+}
+/*section 5 bitti*/
+
+.blog-son .blog-row{
+    
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+    
+}
+.blog-son .blog-row .blogkutu{
+    width: 520px;
+    height: 520px;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 30px;
+    overflow: hidden;
+    transition:0.5 ease;
+    
+    
+}
+.blog-son .blog-row .blogkutu .resim{
+    overflow: hidden;   
+}
+.blog-son .blog-row .blogkutu .resim img{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+    transition:0.5s all ease;
+    overflow: hidden;
+
+}
+.blog-son .blog-row .blogkutu:hover .resim img:hover{
+    transform: scale(1.2);
+    transition:0.5 ease;
+}
+.blog-row .blogkutu h1{
+    margin: 20px 0 20px 5px;
+}
+.blog-row .blogkutu h3{
+    margin: 20px 0 20px 5px;
+}
+.blog-row .blogkutu p{
+    margin-left: 5px;
+}
+.blog-row .blogkutu a{
+    display: inline-block;
+    margin: 15px 0 0 15px;
+    text-decoration: none;
+    background: black;
+    padding: 15px;
+    border-radius: 30rem;
+    color: white;
+    transition: 0.5s all;
+
+}
+.blog-row .blogkutu a:hover{
+    background: rgba(0,0,0, .8);
+}
+/* section bitti*/
+.foot .footer-bot{
+    width: 100%;
+    height: 200px;
+    background: black;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-bot .foot-sos ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 20px;
+    font-size: 30px;
+ 
+    
+
+}
+.footer-bot .foot-sos ul li{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, .8);
+    border-radius: 30rem;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    line-height: 3rem;
+    transition: all 0.3s;
+    
+
+}
+.footer-bot .foot-sos ul li:hover{
+    background: orange;
+}
+.footer-bot .foot-sos ul li a{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.footer-bot .foot-text{
+    color: white;
+    text-align: center;
+}
+.footer-bot .foot-text h2 a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+}
+.footer-bot .foot-text h2 a:hover{
+    color: orange;
+    
+}
+.footer-bot .up a{
+    color: white;
+    font-size: 15px;
+
+
+}
